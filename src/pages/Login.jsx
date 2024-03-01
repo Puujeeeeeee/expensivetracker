@@ -5,11 +5,14 @@ function Login() {
       <div className="w-[50%] flex justify-center items-center bg-white ">
         <div className=" w-[40%] h-[60%] ">
           <div className="flex flex-col items-center justify-between">
-            <div className="text-3xl font-medium  text-black">Geld</div>
+            <div className="text-3xl font-medium  text-black"></div>
             <div className="flex flex-col gap-[20px] p-9">
-              <h1 className="flex  justify-center  text-3xl font-medium text-black">
-                Welcome back
-              </h1>
+              <div className="flex items-center gap-[10px]">
+                <img className="w-[30px] h-[30px]" src="vector.png" alt="" />
+                <h1 className="flex  justify-center  text-3xl font-medium text-black">
+                  Welcome back
+                </h1>
+              </div>
               <h2 className="text-xl text-gray-700">
                 Welcome back, Please enter your details
               </h2>

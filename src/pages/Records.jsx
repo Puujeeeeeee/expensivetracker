@@ -30,7 +30,7 @@ function Records() {
           </div>
           <div className="flex-none gap-8">
             <div className="form-control">
-              <div className="w-[200px] items-center flex justify-center text-2xl border border-white bg-blue-600 text-white h-[50px] rounded-3xl">
+              <div className=" items-center flex justify-center text-2xl border border-white bg-blue-600 text-white h-[50px] rounded-3xl">
                 +Records
               </div>
             </div>
@@ -57,7 +57,7 @@ function Records() {
             <p className="text-black font-bold text-4xl">Records</p>
             <Link
               href={"/Income"}
-              className="btn my-[30px] h-[60px] rounded-3xl  w-[590px] text-white bg-blue-600 text-2xl     "
+              className="btn my-[30px] h-[60px] rounded-3xl  text-white bg-blue-600 text-2xl     "
             >
               + Add
             </Link>
